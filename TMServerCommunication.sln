@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TMServerCommunication", "TMServerCommunication\TMServerCommunication.csproj", "{77FA479E-9D62-4C0A-BFEA-AEC14D1BDBE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TMServerCommunicationTest", "TMServerCommunicationTest\TMServerCommunicationTest.csproj", "{7EABDD95-E301-44EF-97E5-77CB7524691D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E9D03D95-0DF7-46A3-9DB3-99FF15A3A72C}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		TMServerCommunication.vsmdi = TMServerCommunication.vsmdi
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{C751D38B-AE24-43C8-9F53-08305796E9F7}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = TMServerCommunication.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{77FA479E-9D62-4C0A-BFEA-AEC14D1BDBE7}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{77FA479E-9D62-4C0A-BFEA-AEC14D1BDBE7}.Debug|Any CPU.Build.0 = Debug|x86
+		{77FA479E-9D62-4C0A-BFEA-AEC14D1BDBE7}.Debug|x86.ActiveCfg = Debug|x86
+		{77FA479E-9D62-4C0A-BFEA-AEC14D1BDBE7}.Debug|x86.Build.0 = Debug|x86
+		{77FA479E-9D62-4C0A-BFEA-AEC14D1BDBE7}.Release|Any CPU.ActiveCfg = Release|x86
+		{77FA479E-9D62-4C0A-BFEA-AEC14D1BDBE7}.Release|Any CPU.Build.0 = Release|x86
+		{77FA479E-9D62-4C0A-BFEA-AEC14D1BDBE7}.Release|x86.ActiveCfg = Release|x86
+		{77FA479E-9D62-4C0A-BFEA-AEC14D1BDBE7}.Release|x86.Build.0 = Release|x86
+		{7EABDD95-E301-44EF-97E5-77CB7524691D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EABDD95-E301-44EF-97E5-77CB7524691D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EABDD95-E301-44EF-97E5-77CB7524691D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{7EABDD95-E301-44EF-97E5-77CB7524691D}.Debug|x86.Build.0 = Debug|Any CPU
+		{7EABDD95-E301-44EF-97E5-77CB7524691D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EABDD95-E301-44EF-97E5-77CB7524691D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EABDD95-E301-44EF-97E5-77CB7524691D}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
